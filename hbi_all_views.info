@@ -1,0 +1,15 @@
+name = HBI All Views
+description = All the custom views I've created
+core = 7.x
+package = hbi
+version = 7.x-1.0-beta1
+project = hbi_all_views
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:1
+features[views_view][] = admin_content
+features[views_view][] = all_courses
+features[views_view][] = all_documentation
+features[views_view][] = ebo_video_list
+features[views_view][] = ebo_videos
+features_exclude[dependencies][ctools] = ctools
